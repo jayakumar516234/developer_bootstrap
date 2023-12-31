@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <head>
+        <title>three box</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+
+<body class=" " >
+    <section class="containor bg-dark">
+       <!-- nav bar -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Learn Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" for="#one">Singup</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fields
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Software Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Intractive</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+       
+        <!-- first pade code web developer -->
+        <main class="row p-5 " >
+            <div class="p-5  col-md-6 col-sm-12 ">
+                <h1 class="text-white">Become a web <span class="text-warning"> developer</span></h1>
+                <h3 class="text-white">UI/UX Designer</h3>
+                <p class="pt-2 pb-2 text-white">I will create a responsive web site using bootstrap</p>
+                <button class="bg-danger border-0 pt-2 pb-2 ps-4 pe-4 text-white rounded button">Contact Us</button>
+
+            </div>
+            <img class="p-5  col-md-6 col-sm-12 rounded " src="./developer img.png" alt="basic">
+
+        </main>
+         <!-- second page -->
+        <section class="text-white p-5 row bg-primary" id="one">
+            <h5 class="col-sm-12 col-md-3 text-center ">Sing Up to know more details</h5>
+            <input class="col-sm-8 col-md-6" type="email" placeholder="Enter E-mail Id" >
+            <button class="col-sm-3 col-md-2 bg-dark text-white">Submit</button>
+            
+        </section>
+
+        <!-- third page three card -->
+        <section class="bg-white row  ps-5 ps-md-5 pe-md-5 pe-5 pe-md-2 pt-5 pb-5 p-md-5 m-auto">
+            <div class="p-3  text-center col-sm-12 col-md-5 col-lg-3  bg-dark text-white mt-4 mt-xl-0  ms-2 m-lg-auto rounded"><h2 class="p-4 text-5"><i class="fa-solid fa-desktop"></i></h2> <h3>Web Design</h3> <p class="mt-4 mb-4 ">We can reduce the css styles using bootstrap and we can easily design the responsive for web page</p> <button class="bg-primary pt-2 pb-2 ps-4 pe-4 rounded border-0">Read more</button></div>
+            <div class="p-3 text-center col-sm-12 col-md-5 col-lg-3  bg-dark text-white mt-4 mt-xl-0  ms-2 m-lg-auto rounded"><h2 class="p-4"><i class="fa-solid fa-user"></i></h2> <h3>Web Development</h3> <p class="mt-4 mb-4 ">We can reduce the css styles using bootstrap and we can easily design the responsive for web page</p> <button class="bg-primary rounded pt-2 pb-2 ps-4 pe-4 border-0">Read more</button></div>
+            <div class="p-3 text-center col-sm-12 col-md-10 col-lg-3  bg-dark text-white mt-4 mt-xl-0 ms-1 me-1 m-lg-auto rounded"><h2 class="p-4"><i class="fa-solid fa-user-group"></i> </h2><h3>Software Design</h3> <p class="mt-4 mb-4 ">We can reduce the css styles using bootstrap and we can easily design the responsive for web page</p> <button class="bg-primary rounded pt-2 pb-2 ps-4 pe-4 border-0">Read more</button></div>
+        </section>
+
+        <!-- fourth page jearn the basic -->
+        <section class="row p-5 d-flex flex-sm-column-reverse flex-md-row align-iterm-center">
+            <img class="p-5  col-md-6 col-sm-12 rounded " src="./basic img.jpg" alt="basic">
+            <div class="p-5  col-md-6 col-sm-12 ">
+                <h2 class="text-white">Become a web <span class="text-warning">Learn The Basic</h2>
+                 <p class="pt-2 pb-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur in repudiandae, quis commodi sequi debitis asperiores odio amet cum, numquam ab, exercitationem voluptatibus ratione fuga! Corrupti corporis eius quaerat! Reprehenderit praesentium dolore sit pariatur a ullam consequuntur minima odit placeat. Reprehenderit exercitationem adipisci repudiandae maiores omnis atque, laboriosam iste.</p> 
+                <button class="bg-danger border-0 pt-2 pb-2 ps-4 pe-4 text-white rounded">Readmore</button>
+            </div>
+        </section>
+
+        <!-- fifth page four card -->
+        <section class=" p-5 text-white containor text-center  bg-primary text-center">
+            <h1>Our intracive</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos expedita hic quidem fugiat perferendis blanditiis inventore doloribus sapiente deserunt rerum, molestias adipisci aliquid tempore pariatur facere vitae distinctio nihil reprehenderit.</p>
+            <div class="p-2 d-md-flex ">
+
+            <main class=" bg-primary row text-dark p-5">
+
+                
+             
+                <!-- -- 1st Profile Card -- -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3  h-100 bg-light p-5 border border-5 border-primary rounded">
+                    <img class=" img-thumbnail rounded-circle" src="./saravanan.jpeg" alt="pic1">
+                    <h3>Saravanan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit.
+                       Atque nesciunt a repudiandae!
+                    </p>
+                    <span class="d-flex justify-content-around fs-5 pt-3">
+                        <i class="fa-brands fa-facebook text-primary"></i>
+                        <i class="fa-brands fa-twitter text-primary"></i>
+                        <i class="fa-brands fa-linkedin text-primary"></i>
+                        <i class="fa-brands fa-instagram text-primary"></i>
+                    </span>
+                </div>
+                <!-- -- 2nd Profile Card -- -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 h-100 bg-light p-5 border border-5 border-primary">
+                    <img class=" img-thumbnail rounded-circle" src="./shajith.jpeg" alt="pic2">
+                    <h3>Shajith</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit.
+                       Atque nesciunt a repudiandae!
+                    </p>
+                    <span class="d-flex justify-content-around fs-5 pt-3">
+                        <i class="fa-brands fa-facebook text-primary"></i>
+                        <i class="fa-brands fa-twitter text-primary"></i>
+                        <i class="fa-brands fa-linkedin text-primary"></i>
+                        <i class="fa-brands fa-instagram text-primary"></i>
+                    </span>
+                </div>
+                <!-- -- 3rd Profile Card -- -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 h-100 bg-light p-5 border border-5 border-primary">
+                    <img class=" img-thumbnail rounded-circle" src="./ramki.jpg" alt="pic3">
+                    <h3>Ramki</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit.
+                       Atque nesciunt a repudiandae!
+                    </p>
+                    <span class="d-flex justify-content-around fs-5 pt-3">
+                        <i class="fa-brands fa-facebook text-primary"></i>
+                        <i class="fa-brands fa-twitter text-primary"></i>
+                        <i class="fa-brands fa-linkedin text-primary"></i>
+                        <i class="fa-brands fa-instagram text-primary"></i>
+                    </span>
+                </div>
+                <!-- -- 4th Profile Card -- -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 h-100 bg-light p-5 border border-5 border-primary">
+                    <img class=" img-thumbnail rounded-circle" src="./karan.jpeg" alt="pic4">
+                    <h3>Karan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit.
+                       Atque nesciunt a repudiandae!
+                    </p>
+                    <span class="d-flex justify-content-around fs-5 pt-3">
+                        <i class="fa-brands fa-facebook text-primary"></i>
+                        <i class="fa-brands fa-twitter text-primary"></i>
+                        <i class="fa-brands fa-linkedin text-primary"></i>
+                        <i class="fa-brands fa-instagram text-primary"></i>
+                    </span>
+                </div>
+            
+           
+                
+              
+            </main>
+        </div>
+        
+        </section>
+        
+    </section>
+   
+</body>
+</html>
